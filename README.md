@@ -1,6 +1,6 @@
 # math-operations-e2e
 
-`math-operations-e2e` repository. This repository is dedicated to conducting comprehensive end-to-end (E2E) tests on the 'math-operations-dev' backend application. It is designed to be automatically triggered following the successful completion of unit tests in the parent repository, ensuring that new changes are verified in a scenario that closely emulates a production environment.
+`math-operations-e2e` repository is dedicated to conducting comprehensive end-to-end (E2E) tests on the 'math-operations-dev' backend application. It is designed to be automatically triggered following the successful completion of unit tests in the parent repository, ensuring that new changes are verified in a scenario that closely emulates a production environment.
 
 ## Repository Directory Structure
 

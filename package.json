@@ -1,0 +1,20 @@
+{
+  "name": "math-operations-e2e",
+  "version": "1.0.0",
+  "description": "A specialized repository dedicated to conducting end-to-end (E2E) testing for the 'math-operations-dev' backend application. This repository is automatically triggered by the completion of unit tests in the parent repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest test --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "AST-LW",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "axios": "^1.6.3",
+    "jest": "^29.7.0"
+  }
+}

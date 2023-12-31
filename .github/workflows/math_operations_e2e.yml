@@ -1,0 +1,26 @@
+name: End-to-End Testing Workflow for Math Operations
+on:
+  repository_dispatch:
+    types: [trigger-e2e-tests-event]
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout E2E Test Repository Code
+        uses: actions/checkout@v3
+
+      - name: Set Up Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install E2E Testing Dependencies
+        run: npm ci
+
+      - name: Execute End-to-End Tests
+        run: npm run test
+
+      - name: E2E Test Completion Notification
+        run: |
+          echo "End-to-end testing has successfully completed. These tests validate the integrated functionality of the math operations backend in real-world scenarios, ensuring that the application performs as expected from start to finish."

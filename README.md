@@ -1,5 +1,7 @@
 # math-operations-e2e
 
+**Note**: math-operations-e2e has been created as part of a practical demonstration for the blog post on [Cross-Repo Triggers in GitHub Actions](https://medium.com/@walkthroughfrom2020/cross-repo-triggers-in-github-actions-6e2bd2065ec1). The purpose of this repository is to showcase a real-world application of how to set up and utilize cross-repository triggers within GitHub Actions.
+
 `math-operations-e2e` repository is dedicated to conducting comprehensive end-to-end (E2E) tests on the 'math-operations-dev' backend application. It is designed to be automatically triggered following the successful completion of unit tests in the parent repository, ensuring that new changes are verified in a scenario that closely emulates a production environment.
 
 ## Repository Directory Structure
